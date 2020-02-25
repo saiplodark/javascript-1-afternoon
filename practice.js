@@ -53,7 +53,8 @@ let newGreeting = function(name){
 //Create an array called groceries with the values
 //"apples", "milk", "eggs", "bread"
 
-let groceries = ["apples", "eggs", "brad"];
+let groceries = ["apples", "milk", "eggs", "bread"];
+
 
 //////////////////PROBLEM 9////////////////////
 
@@ -62,12 +63,17 @@ let groceries = ["apples", "eggs", "brad"];
 //name (a string), color (a string), age (a number),
 //and goodBoy (a boolean).
 
-//Code Here
+let dog = {
+  name: "puppy",
+  color: "white",
+  age: 2,
+  goodBoy: true
+};
 
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
-//Code Here
+let devMountainClassPet = dog.name
 
 //////////////////PROBLEM 10////////////////////
 
